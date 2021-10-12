@@ -1,5 +1,5 @@
 // #Books
-var books = ["Maths", "Programming", "Economics", "History"];
+var books = ["Maths", "Programming", "Economics", "History", "Python"];
 
 books.push("TypeScript");
 books.forEach((name, index) => {
