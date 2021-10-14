@@ -3,4 +3,8 @@
 function sum(num1, num2) {
 	return num1 + num2;
 }
-console.log(`Result: ${sum(5, 5)}`);
+
+function sub(num1, num2) {
+	return num1 - num2;
+}
+console.log(`Result sum: ${sum(5, 5)}, Result sub: ${sub(10, 3)}`);
