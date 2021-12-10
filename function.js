@@ -4,6 +4,8 @@ function sum(num1, num2) {
 	return num1 + num2;
 }
 
+// # Sub between two values
+
 function sub(num1, num2) {
 	return num1 - num2;
 }
