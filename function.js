@@ -10,6 +10,8 @@ function sub(num1, num2) {
 	return num1 - num2;
 }
 
+// # Mult between two values
+
 function mult(num1, num2) {
 	return num1 * num2;
 }
