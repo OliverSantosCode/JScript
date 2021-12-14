@@ -16,6 +16,8 @@ function mult(num1, num2) {
 	return num1 * num2;
 }
 
+// # Div between two values
+
 function div(num1, num2) {
 	return num1 / num2;
 }
