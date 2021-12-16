@@ -28,6 +28,8 @@ function rest(num1, num2) {
 	return num1 % num2;
 }
 
+// # Pair one value
+
 function pair(num) {
 	return num % 2;
 }
