@@ -34,6 +34,8 @@ function pair(num) {
 	return num % 2;
 }
 
+// # Odd one value
+
 function odd(num) {
 	return num % 2;
 }
