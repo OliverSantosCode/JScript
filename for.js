@@ -18,10 +18,10 @@ var obj = {
 
 var Books = [
     {
-    Maths: "maths",
-    Programming: "programming",
-    Economics: "economics",
-    History: "history"
+    Maths: "Maths",
+    Programming: "Programming",
+    Economics: "Economics",
+    History: "History"
 }]
 
 for (books in obj) {
@@ -37,3 +37,8 @@ Books.forEach(element => {
     }
     console.log('-------------------\n')
 });
+
+for (const library of Books) {
+
+    console.log(`Library Books:\n\n${library.Maths}\n${library.Programming}\n${library.Economics}\n${library.History}\n`);
+}
