@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "repository": "git@github.com:OliverSantosCode/JScript.git",
   "author": "OliverSantosCode <@oliversantoscode>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
