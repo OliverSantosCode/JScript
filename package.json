@@ -4,6 +4,9 @@
   "repository": "git@github.com:OliverSantosCode/JScript.git",
   "author": "OliverSantosCode <@oliversantoscode>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^27.5.1"
   }
