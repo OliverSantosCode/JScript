@@ -1,15 +1,16 @@
 // # Sum between two values
 
-function sum(num1, num2) {
-	return num1 + num2;
+function addition(sum1, sum2) {
+	return sum1 + sum2;
 }
-module.exports = sum;
+module.exports = { addition };
 
 // # Sub between two values
 
-function sub(num1, num2) {
-	return num1 - num2;
+function subtraction(sub1, sub2) {
+	return sub1 - sub2;
 }
+module.exports = { subtraction };
 
 // # Mult between two values
 
@@ -41,10 +42,12 @@ function odd(num) {
 	return num % 2;
 }
 
-console.log(`Result sum: ${sum(5, 5)},
- Result sub: ${sub(10, 3)}, 
- Result mult: ${mult(2,5)}, 
- Result div: ${div(10,5)},
- Result rest ${rest(3,2)},
- Result pair ${pair(4)},
- Result odd ${odd(7)}`);
+/**
+ * console.log(`Result sum: ${sum(5, 5)},
+ * Result sub: ${sub(10, 3)},
+ * Result mult: ${mult(2,5)}, 
+ * Result div: ${div(10,5)},
+ * Result rest ${rest(3,2)},
+ * Result pair ${pair(4)},
+ * Result odd ${odd(7)}`);
+ */

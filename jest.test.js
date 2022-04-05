@@ -1,9 +1,11 @@
-const sum = require('./function');
-
-require('./function');
+let { addition, subtraction }  = require('./function');
 
 describe('Mathematical Operators:\n', () => {
-    test('Addition Operator', () => {
-        expect(sum(2,3)).toBe(5);
+    xtest('Addition Operator', () => {
+        expect(addition(3,3)).toBe(6);
     });
+
+    test('Subtraction Operator', () => {
+        expect(subtraction(9,3)).toBe(6);
+});
 });
