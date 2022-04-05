@@ -3,19 +3,17 @@
 function addition(sum1, sum2) {
 	return sum1 + sum2;
 }
-module.exports = { addition };
 
 // # Sub between two values
 
 function subtraction(sub1, sub2) {
 	return sub1 - sub2;
 }
-module.exports = { subtraction };
 
-// # Mult between two values
+// # Multi between two values
 
-function mult(num1, num2) {
-	return num1 * num2;
+function multiplication(mul1, mul2) {
+	return mul1 * mul2;
 }
 
 // # Div between two values
@@ -41,6 +39,8 @@ function pair(num) {
 function odd(num) {
 	return num % 2;
 }
+
+module.exports = { addition, subtraction, multiplication };
 
 /**
  * console.log(`Result sum: ${sum(5, 5)},
