@@ -24,8 +24,8 @@ function division(div1, div2) {
 
 // # Rest between two values
 
-function rest(num1, num2) {
-	return num1 % num2;
+function rest(rest1, rest2) {
+	return rest1 % rest2;
 }
 
 // # Pair one value
@@ -40,7 +40,7 @@ function odd(num) {
 	return num % 2;
 }
 
-module.exports = { addition, subtraction, multiplication, division };
+module.exports = { addition, subtraction, multiplication, division, rest };
 
 /**
  * console.log(`Result sum: ${sum(5, 5)},

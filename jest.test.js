@@ -1,4 +1,4 @@
-let { addition, subtraction, multiplication, division }  = require('./function');
+let { addition, subtraction, multiplication, division, rest }  = require('./function');
 
 describe('Mathematical Operators:\n', () => {
 
@@ -16,6 +16,10 @@ describe('Mathematical Operators:\n', () => {
 
     test('· Division Operator.', () => {
         expect(division(10,2)).toBe(5);
+    });
+
+    test('· Rest Division.', () => {
+        expect(rest(10,3)).toBe(1);
     });
     
 });
