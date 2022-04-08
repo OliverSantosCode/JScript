@@ -1,4 +1,4 @@
-let { addition, subtraction, multiplication, division, rest }  = require('./function');
+let { addition, subtraction, multiplication, division, rest, pair }  = require('./function');
 
 describe('Mathematical Operators:\n', () => {
 
@@ -20,6 +20,10 @@ describe('Mathematical Operators:\n', () => {
 
     test('· Rest Division.', () => {
         expect(rest(10,3)).toBe(1);
+    });
+
+    test('· Pair Number.', () => {
+        expect(pair(34,2)).toBe(0);
     });
     
 });
