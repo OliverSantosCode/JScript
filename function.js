@@ -40,7 +40,7 @@ function odd(num) {
 	return num % 2;
 }
 
-module.exports = { addition, subtraction, multiplication, division, rest, pair };
+module.exports = { addition, subtraction, multiplication, division, rest, pair, odd };
 
 /**
  * console.log(`Result sum: ${sum(5, 5)},
