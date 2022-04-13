@@ -1,5 +1,6 @@
 const books = require('./array');
 const { addition, subtraction, multiplication, division, rest, pair, odd }  = require('./function');
+const book = require('./switch');
 
 describe('Mathematical Operators:\n', () => {
 
@@ -37,5 +38,12 @@ describe('Array Books:\n', () => {
 
     test('Array.', () => {
         expect(books).toEqual(['Maths', 'Programming', 'Economics', 'History', 'Python', 'TypeScript']);
+    });
+});
+
+describe('Switch Book:\n', () => {
+
+    test('Switch.', () => {
+        expect(book).toEqual(String(book));
     });
 });
