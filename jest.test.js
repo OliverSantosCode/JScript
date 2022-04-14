@@ -1,6 +1,7 @@
 const books = require('./array');
 const { addition, subtraction, multiplication, division, rest, pair, odd }  = require('./function');
 const book = require('./switch');
+const num = require('./while');
 
 describe('Mathematical Operators:\n', () => {
 
@@ -45,5 +46,12 @@ describe('Switch Book:\n', () => {
 
     test('Switch.', () => {
         expect(book).toEqual(String(book));
+    });
+});
+
+describe('While Number:\n', () => {
+
+    test('While.', () => {
+        expect(num).toEqual(Number(num));
     });
 });
