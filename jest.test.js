@@ -1,5 +1,6 @@
 const books = require('./array');
 const { addition, subtraction, multiplication, division, rest, pair, odd }  = require('./function');
+const ages = require('./ifelse');
 const book = require('./switch');
 const num = require('./while');
 
@@ -53,5 +54,12 @@ describe('While Number:\n', () => {
 
     test('While.', () => {
         expect(num).toEqual(Number(num));
+    });
+});
+
+describe('Ifelse Number:\n', () => {
+
+    test('Ifelse.', () => {
+        expect(ages).toEqual(Number(ages));
     });
 });

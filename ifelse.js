@@ -36,3 +36,5 @@ if(books == "history") {
 }
 
 console.log("____________________________")
+
+module.exports = ages;
