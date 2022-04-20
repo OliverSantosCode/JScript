@@ -64,6 +64,7 @@ describe('Ifelse Number:\n', () => {
     });
 
     test('Ifelse.', () => {
-        expect(ages < 18).toBe(true);
+        expect((ages < 18) || ages > 18).toBe(true);
     });
+
 });
