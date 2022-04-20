@@ -25,7 +25,7 @@ var books = ["maths", "programming", "economics", "history"]
 var type = Math.floor(Math.random() * books.length)
 var book = books[type]
 
-if(books == "history") {
+if(book == "history") {
     console.log("History Book")
 } else if(books == "maths") {
     console.log("Maths Book")
