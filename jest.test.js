@@ -2,6 +2,7 @@ const books = require('./array');
 const { addition, subtraction, multiplication, division, rest, pair, odd }  = require('./function');
 const ages = require('./ifelse');
 const book = require('./switch');
+const age = require('./ternary');
 const num = require('./while');
 
 describe('Mathematical Operators:\n', () => {
@@ -65,6 +66,14 @@ describe('Ifelse Number:\n', () => {
 
     test('Ifelse.', () => {
         expect((ages < 18) || ages > 18).toBe(true);
+    });
+
+});
+
+describe('Ternary Age:\n', () => {
+
+    test('Ternary.', () => {
+        expect(age < 18).toBe(true);
     });
 
 });

@@ -19,3 +19,5 @@ book == "history"
 	: book == "economics"
 	? console.log("Economics Book")
 	: console.log("Unknown Book");
+
+	module.exports = age;

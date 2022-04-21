@@ -16,7 +16,7 @@ var count = 0
 // console.log("Starting Loop")
 
 do {
-    console.log(`Current Count: ${count} \n`)
+    // console.log(`Current Count: ${count} \n`)
     count++
 } while (count < num)
 // console.log("Stopped Loop")
