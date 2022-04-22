@@ -70,10 +70,10 @@ describe('Ifelse Number:\n', () => {
 
 });
 
-describe('Ternary Age:\n', () => {
+describe(`Ternary Age: ${age}\n`, () => {
 
     test('Ternary.', () => {
-        expect(age < 18).toBe(true);
+        expect((age < 18) || age > 18).toBe(true);
     });
 
 });
