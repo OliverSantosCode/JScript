@@ -44,10 +44,10 @@ describe('Array Books:\n', () => {
     });
 });
 
-describe('Switch Book:\n', () => {
+describe(`Switch Book: ${book}\n`, () => {
 
     test('Switch.', () => {
-        expect(book).toEqual(String(book));
+        expect(book).toEqual(String(book) || (undefined));
     });
 });
 
