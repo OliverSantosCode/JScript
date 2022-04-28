@@ -47,7 +47,7 @@ describe('Array Books:\n', () => {
 describe(`Switch Book: ${book}\n`, () => {
 
     test('Switch.', () => {
-        expect(book).toEqual(String(book) || (void 0));
+        expect(book).toEqual(book? String(book) : (void 0));
     });
 });
 
