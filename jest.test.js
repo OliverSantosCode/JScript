@@ -37,7 +37,7 @@ describe('Mathematical Operators:\n', () => {
     
 });
 
-describe('Array Books:\n', () => {
+describe(`Array Books: ${books}\n`, () => {
 
     test('Array.', () => {
         expect(books).toEqual(['Maths', 'Programming', 'Economics', 'History', 'Python', 'TypeScript']);
